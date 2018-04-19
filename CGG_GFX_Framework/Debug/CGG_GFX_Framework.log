@@ -1,0 +1,28 @@
+﻿Build started 1/30/2017 9:52:29 AM.
+     1>Project "C:\Users\james\Desktop\Computer Graphics For Games\Source\CGG_GFX_Framework\CGG_GFX_Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SDKs\SDL2-2.0.4\include" /I"C:\SDKs\SDL\SDL2-devel-2.0.3-VC\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CGG_Main.cpp
+         CGG_Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SDKs\glm-0.9.7.1\glm\glm" /I"C:\SDKs\SDL2-2.0.4\include" /I"C:\SDKs\SDL\SDL2-devel-2.0.3-VC\SDL2-2.0.3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(120): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(122): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(126): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(131): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(139): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(140): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(206): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(207): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(214): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\james\desktop\computer graphics for games\source\cgg_gfx_framework\main.cpp(215): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\james\Desktop\Computer Graphics For Games\Source\Debug\CGG_GFX_Framework.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SDKs\SDL2-2.0.4\lib\x86" /LIBPATH:"C:\SDKs\SDL\SDL2-devel-2.0.3-VC\SDL2-2.0.3\lib\x86" SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\james\Desktop\Computer Graphics For Games\Source\Debug\CGG_GFX_Framework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\james\Desktop\Computer Graphics For Games\Source\Debug\CGG_GFX_Framework.lib" /MACHINE:X86 Debug\CGG_Main.obj
+         Debug\Main.obj
+         CGG_GFX_Framework.vcxproj -> C:\Users\james\Desktop\Computer Graphics For Games\Source\Debug\CGG_GFX_Framework.exe
+     1>Done Building Project "C:\Users\james\Desktop\Computer Graphics For Games\Source\CGG_GFX_Framework\CGG_GFX_Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.55
